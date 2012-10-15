@@ -1,0 +1,8 @@
+This is a simple program under python & tkinter.
+
+The main purpose of this program is to provide a fast interface to 
+interact with user defined shell scripts. The default editor is 'vim',
+default terminal is 'urxvt' and default shell interface is 'bash'
+
+One can modify several constant in the file to fulfill their own need.
+
