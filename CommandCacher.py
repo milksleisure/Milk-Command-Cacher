@@ -70,7 +70,7 @@ class CommandCacher( Frame ):
         if( access( self.config_dir, F_OK ) ):
             chdir( self.config_dir )
         else:
-            makedirs( self.config_file ) 
+            makedirs( self.config_dir ) 
 
         #check config files
         if( access( 'config.ini', F_OK) ):
