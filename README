@@ -6,3 +6,5 @@ default terminal is 'urxvt' and default shell interface is 'bash'
 
 One can modify several constant in the file to fulfill their own need.
 
+Log:
+version 1.1 enable sorted list

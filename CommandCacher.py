@@ -4,7 +4,7 @@
 TERM='urxvt'
 EDITOR='vim'
 SHELL='/bin/bash'
-VERSION='v1.0'
+VERSION='v1.1'
 
 #import
 from tkinter import Tk, Label, Listbox, Button, Scrollbar, messagebox, Entry, Toplevel
@@ -100,7 +100,7 @@ class CommandCacher( Frame ):
 
         self.script_list.delete( 0, END )
 
-        for file_name in file_list:
+        for file_name in sorted(file_list):
             self.script_list.insert( END, file_name )
 
     #execute the script files
