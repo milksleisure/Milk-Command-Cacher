@@ -86,7 +86,7 @@ class CommandCacher( Frame ):
 
         #check script directory & update the list
         self.script_dir = self.config_dir + '/scripts'
-        if( self.script_dir, F_OK ):
+        if( access( self.script_dir, F_OK ) ):
             self.updateList()
         else:
             makedirs( self.script_dir )
